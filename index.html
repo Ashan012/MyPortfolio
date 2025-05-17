@@ -1,40 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <section>
-        <h1>Blog</h1>
-        <article>
-            <header>
-                <h3>UI interactive Website</h3>
-            </header>
-            <div>
-                <span>12 Feb</span>  |  <span>Express/Angular</span>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit <br>
-                 itaque harum numquam rerum, omnis eius iure doloremque vero, similique <br>
-                 quo quod dolor laboriosam sed tempora. Corporis et odit blanditiis cumque.
-            </p>
-        </article>
-
-         <article>
-            <header>
-                <h3>UI interactive Website</h3>
-            </header>
-            <div>
-                <span>12 Feb</span>  |  <span>Express/Angular</span>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit <br>
-                 itaque harum numquam rerum, omnis eius iure doloremque vero, similique <br>
-                 quo quod dolor laboriosam sed tempora. Corporis et odit blanditiis cumque.
-            </p>
-        </article>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./work.html">Work</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="heroSection">
+      <div class="heroInner">
+        <div class="colLeft">
+          <h1>Hy Im Ashan</h1>
+          <h1>Creative Technologist</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+            unde. Lorem ipsum dolor amet consectetur, adipisicing elit. Labore,
+            unde. Lorem dolor sit amet consectetur, adipisicing elit. Labore,
+            unde.
+          </p>
+        </div>
+        <div class="colRight">
+          <img src="./img/profileImage.jpg" alt="Avtar" />
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- Post Section -->
+
+    <section class="postSection">
+      <div class="postSectionInner">
+        <div class="postHeader">
+          <h2>Recent Post</h2>
+          <a href="index.html">View All</a>
+        </div>
+
+        <div class="post">
+          <article class="postIteam">
+            <header>
+              <h3>Making a Design System from Scratch</h3>
+            </header>
+
+            <div class="meta">
+              <span>12 Feb 2022</span>
+              <span>|</span>
+              <span>Design Pattern</span>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              sequi, laudantium deserunt error doloribus consequuntur dolore,
+              totam suscipit consequatur, incidunt voluptatum nesciunt magni
+              rerum aliquam nihil veniam sint distinctio odio eos. Eum atque
+              aspernatur nam aliquam doloribus molestiae, non iste?
+            </p>
+          </article>
+          <article class="postIteam">
+            <header>
+              <h3>Creating pixel perfect icon in figma</h3>
+            </header>
+
+            <div class="meta">
+              <span>12 Feb 2022</span>
+              <span>|</span>
+              <span>Express Angular</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              molestias, expedita rerum velit architecto, ab qui saepe corporis
+              eveniet voluptatum impedit quos nulla libero assumenda distinctio
+              magnam adipisci voluptatem provident vel deserunt deleniti eum
+              odit nisi! Similique sed dignissimos nisi.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featureSection">
+      <div class="featureInner">
+        <div class="fsHeader">
+          <h2>Featured Work</h2>
+        </div>
+        <div class="fsList">
+          <div class="fsIteam">
+            <div class="fsIteamLeft">
+              <img src="./img/profileImage.jpg" alt="" />
+            </div>
+            <div class="fsIteamRight">
+              <h3>Design Dashboard</h3>
+              <div class="iteamMeta">
+                <div class="badge">2021</div>
+                <div class="category">Dashboard</div>
+              </div>
+              <div class="description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores saepe provident, rem veritatis minima earum a debitis
+                harum ipsa placeat nam eum asperiores itaque numquam ullam quo
+                animi? Quam, nemo.
+              </div>
+            </div>
+          </div>
+
+          <!--  Second Feature Iteam -->
+
+          <div class="fsIteam">
+            <div class="fsIteamLeft">
+              <img src="./img/profileImage.jpg" alt="" />
+            </div>
+            <div class="fsIteamRight">
+              <h3>Design Dashboard</h3>
+              <div class="iteamMeta">
+                <div class="badge">2021</div>
+                <div class="category">Dashboard</div>
+              </div>
+              <div class="description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores saepe provident, rem veritatis minima earum a debitis
+                harum ipsa placeat nam eum asperiores itaque numquam ullam quo
+                animi? Quam, nemo.
+              </div>
+            </div>
+          </div>
+
+          <!--  Third Featured Iteam -->
+
+          <div class="fsIteam">
+            <div class="fsIteamLeft">
+              <img src="./img/profileImage.jpg" alt="" />
+            </div>
+            <div class="fsIteamRight">
+              <h3>Design Dashboard</h3>
+              <div class="iteamMeta">
+                <div class="badge">2021</div>
+                <div class="category">Dashboard</div>
+              </div>
+              <div class="description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores saepe provident, rem veritatis minima earum a debitis
+                harum ipsa placeat nam eum asperiores itaque numquam ullam quo
+                animi? Quam, nemo.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

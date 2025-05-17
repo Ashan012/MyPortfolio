@@ -1,0 +1,205 @@
+body,
+html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+header nav {
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: end;
+  padding-right: 60px;
+}
+header nav ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000;
+}
+
+/* Hero Section */
+
+.heroSection {
+  background-color: #fff;
+  padding: 158px 0;
+}
+.heroSection .heroInner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.heroSection .heroInner .colLeft {
+  max-width: 497px;
+}
+.heroSection .heroInner .colLeft h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+.heroSection .heroInner .colLeft p {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+.heroSection .heroInner .colLeft .actionButton {
+  margin: 38px 38px 38px 0;
+  background: #ff6464;
+  border-radius: 2px;
+  color: white;
+  line-height: 47px;
+  padding: 10px 20px;
+  text-align: center;
+  max-width: fit-content;
+}
+
+.heroSection .heroInner .colRight {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.heroSection .heroInner .colRight img {
+  border-radius: 50%;
+}
+.postSection {
+  background-color: #edf7fa;
+  padding: 32px 0;
+}
+.featureSection {
+  background-color: #fff;
+  padding: 32px 0;
+}
+.postSection .postSectionInner,
+.featureSection .featureInner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.postSection .postHeader h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+.postSection .postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postSection .postHeader a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00abcc;
+  text-decoration: none;
+}
+.post {
+  display: flex;
+  gap: 33px;
+}
+.post .postIteam {
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgb(186, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 24px;
+}
+.post .postIteam header h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  margin-bottom: 16px;
+}
+.post .postIteam .meta {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  text-align: center;
+  gap: 26px;
+  color: #21243d;
+  margin-bottom: 20px;
+}
+.post .postIteam p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+
+/* Feature Section */
+.featureSection .fsHeader h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 22px;
+}
+.fsList .fsIteam {
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.fsIteam .fsIteamRight h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin-bottom: 16px;
+}
+.fsIteam .fsIteamRight .iteamMeta {
+  display: flex;
+  gap: 26px;
+}
+.fsIteam .fsIteamRight .iteamMeta .badge {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.iteamMeta .category {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695a4;
+  line-height: 29px;
+}
+
+.fsIteam .fsIteamRight .description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+  line-height: 24px;
+}
