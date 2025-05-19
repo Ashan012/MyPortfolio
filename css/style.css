@@ -88,6 +88,9 @@ header ul li a {
 .heroSection .heroInner .colRight img {
   border-radius: 50%;
 }
+
+/* Post Section */
+
 .postSection {
   background-color: #edf7fa;
   padding: 32px 0;
@@ -166,6 +169,8 @@ header ul li a {
   display: flex;
   gap: 18px;
   border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 30px;
 }
 .fsIteam .fsIteamRight h3 {
   font-weight: 700;
@@ -202,4 +207,71 @@ header ul li a {
   font-size: 16px;
   color: #21243d;
   line-height: 24px;
+}
+
+footer {
+  height: 182px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .footerInner .socialLinks {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 26px;
+}
+
+footer .footerInner .copyRights {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+}
+/* Respondive with media  */
+@media only screen and (max-width: 600px) {
+  .heroSection .heroInner {
+    flex-direction: column-reverse;
+  }
+
+  .heroSection .heroInner .colRight {
+    margin-bottom: 30px;
+  }
+
+  .heroSection .heroInner .colLeft {
+    text-align: center;
+    margin: 0 20px;
+  }
+  .heroSection .heroInner .colLeft .actionButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .post {
+    flex-direction: column;
+  }
+
+  .postSection .postHeader a {
+    display: none;
+  }
+
+  .postSection .postHeader h2 {
+    margin: 0 auto;
+  }
+
+  .featureSection .fsHeader h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fsList .fsIteam {
+    flex-direction: column;
+  }
+  .fsList .fsIteam .fsIteamLeft img {
+    width: 100%;
+  }
+  .featureSection .featureInner {
+    margin: 0 18px;
+  }
 }
